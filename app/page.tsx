@@ -1,5 +1,7 @@
 'use client';
+
 import { useState } from "react";
+
 export default function LawnEstimator() {
   const [size, setSize] = useState(2000);
   const [grassHeight, setGrassHeight] = useState("normal");
