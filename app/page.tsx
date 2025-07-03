@@ -10,7 +10,7 @@ export default function LawnEstimator() {
     edging: false,
     weeds: false,
   });
-  const [quote, setQuote] = useState(null);
+  const [quote, setQuote] = useState<string | null>(null);
 
   const calculateQuote = () => {
     const baseRate = 20;
